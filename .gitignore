@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+# Raw model responses can be large and may contain provider output not yet reviewed for publication.
+runs/

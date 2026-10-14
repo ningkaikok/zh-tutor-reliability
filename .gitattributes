@@ -1,0 +1,5 @@
+* text=auto eol=lf
+# Hashed assets must keep exact bytes on every platform.
+*.svg -text
+*.png binary
+*.jpg binary
