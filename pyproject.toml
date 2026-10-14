@@ -3,6 +3,7 @@ name = "zh-tutor-reliability"
 version = "0.1.0"
 description = "Evidence-reliability experiments for Chinese textbook tutoring"
 requires-python = ">=3.12"
+license = "Apache-2.0"
 dependencies = []
 
 [dependency-groups]

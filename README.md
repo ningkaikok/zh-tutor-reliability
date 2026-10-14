@@ -16,7 +16,8 @@ uv run python -m zh_tutor_reliability.variants data/items/examples.jsonl
 目录：`data/items/` 人工核对的原题，`data/variants/` 生成的变体，`runs/` 模型原始响应缓存（不入库），
 `reports/` 每次实验一页报告。
 
-许可：代码与数据的公开许可尚未确定，确定前请勿再分发数据。
+许可：代码采用 [Apache-2.0](LICENSE)；`data/` 下的原题与变体采用 [CC BY 4.0](data/LICENSE)，使用时请注明出处。
+可公开的原题只能是自编或开放许可内容，`license` 字段需与此一致。
 
 ## 思路
 
