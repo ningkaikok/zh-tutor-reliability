@@ -60,6 +60,14 @@ uv run python -m zh_tutor_reliability.variants data/items/examples.jsonl
 评分时要同时看两边：损坏变体上是否发现问题、定位是否准确；干净变体上能否答对、是否误报。
 “全部拒答”在干净变体上会被扣分，不能拿高分。
 
+## 核对原题
+
+```bash
+uv run python -m zh_tutor_reliability.review data/items/<原题>.jsonl --out docs/review/<原题>.md
+```
+
+生成的清单只用于阅读；核对结果写回原题的 `verification` 字段。当前待核对：[相似三角形 30 题](docs/review/similar-triangles.md)。
+
 ## 生成变体
 
 ```bash
